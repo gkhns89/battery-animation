@@ -586,7 +586,7 @@ video {
 
 @keyframes battery {
   0% {
-    width: 10%;
+    width: 5%;
     background: red;
   }
 
@@ -612,7 +612,7 @@ video {
 }
 
 .animate-battery-animation {
-  animation: battery 5s linear infinite;
+  animation: battery 5s linear infinite alternate;
 }
 
 .flex-row-reverse {
