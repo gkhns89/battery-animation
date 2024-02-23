@@ -544,3 +544,117 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.left-0 {
+  left: 0px;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.h-20 {
+  height: 5rem;
+}
+
+.h-6 {
+  height: 1.5rem;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.w-3 {
+  width: 0.75rem;
+}
+
+.w-48 {
+  width: 12rem;
+}
+
+@keyframes battery {
+  0% {
+    width: 10%;
+    background: red;
+  }
+
+  25% {
+    width: 25%;
+    background: orange;
+  }
+
+  50% {
+    width: 50%;
+    background: yellow;
+  }
+
+  75% {
+    width: 75%;
+    background: #d8f40c;
+  }
+
+  100% {
+    width: 100%;
+    background: green;
+  }
+}
+
+.animate-battery-animation {
+  animation: battery 5s linear infinite;
+}
+
+.flex-row-reverse {
+  flex-direction: row-reverse;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.rounded-xl {
+  border-radius: 0.75rem;
+}
+
+.rounded-br-lg {
+  border-bottom-right-radius: 0.5rem;
+}
+
+.rounded-tr-lg {
+  border-top-right-radius: 0.5rem;
+}
+
+.border-2 {
+  border-width: 2px;
+}
+
+.border-gray-400 {
+  --tw-border-opacity: 1;
+  border-color: rgb(156 163 175 / var(--tw-border-opacity));
+}
+
+.bg-gray-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(156 163 175 / var(--tw-bg-opacity));
+}
+
+.bg-gray-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(55 65 81 / var(--tw-bg-opacity));
+}
+

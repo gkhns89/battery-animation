@@ -1,9 +1,25 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: [
+    "./components/**/*.{html,js}",
+    "./pages/**/*.{html,js}",
+    "./battery.html",
+  ],
   theme: {
-    extend: {},
+    extend: {
+      animation: {
+        "battery-animation": "battery 5s linear infinite",
+      },
+      keyframes: {
+        battery: {
+          '0%':  { width: '10%', background: 'red' },
+          '25%': { width: '25%', background: 'orange' },
+          '50%': { width: '50%', background: 'yellow' },
+          '75%': { width: '75%', background: '#d8f40c' },
+          '100%': { width: '100%', background: 'green' },
+        }
+      }
+    },
   },
-  plugins: [],
-}
-
+  // ...
+};
